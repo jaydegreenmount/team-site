@@ -1,0 +1,714 @@
+/* This Is The Style Sheet For Alpha Asif Studios Website */
+
+	html, body {
+		background-color: #000;
+	}
+	
+	
+	/*navbar section*/
+	.nav-link, .navbar-nav, h3 {
+		color: #00e4e7;
+		font-size: 26px;
+	}
+	
+	.form-control {
+		border: 2px solid #00e4e7;
+	}
+	
+	#nav-btn {
+		border: 2px solid #00e4e7;
+		background-color: black;
+		color: #00e4e7;
+	}
+	
+	a {
+		color: #00e4e7 !important;
+	}
+	
+	.dropdown-menu {
+		border-radius: 20px;
+	    text-align: center;
+	    background-color: #222;
+	    text-decoration: underline;
+	}
+	
+	/* Centers the card carousel */
+	.container-fluid {
+		padding: 5%;
+	}
+
+	/* Games and Teams Title */
+	.landing-title-gradient {
+		text-align: center;
+		color: white;
+		text-decoration: underline;
+		padding: 3%;
+		width: 100%;
+		overflow: hidden;
+		/* Gradient Coloruing */
+	    background-color: #236699; /* For browsers that do not support gradients */
+	    background-image: linear-gradient(to bottom right, #00e4e7, #0098E7, #001BE7); /* Standard syntax (must be last) */
+	}
+	
+	/* News and Contact Title */
+	.dark-landing-title-gradient {
+		text-align: center;
+		color: white;
+		text-decoration: underline;
+		padding: 3%;
+		width: 100%;
+		overflow: hidden;
+		/* Gradient Coloruing */
+	    background-color: #555555; /* For browsers that do not support gradients */
+	    background-image: linear-gradient(to bottom right, #999999, #555555, #222222); /* Standard syntax (must be last) */
+	}
+	
+	/* News Section */
+	.news-container {
+		background-image: url("/media/second.jpg");
+		background-color: #333;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	
+	.news-container-page {
+		background-color: #236699;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	
+	/* Games Section */
+	.games-container {
+		background-image: url("/media/first.jpg");
+		background-color: #236699;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	
+	.plight-showcase {
+		background-image: url(../media/mediaevil/menu.png);	
+	}
+	
+	.hells-farm-showcase {
+		background-image: url(../media/pentagram/Barn.png);
+	}
+	
+	.trumpocalypse-showcase {
+		background-image: url(../../media/pentagram/Factory-Upper-Floor.png)
+	}
+	
+	.showcase-container {
+		background-color: #111;
+		background-size: cover;
+	}
+	
+	.showcase-title, .showcase-desc {
+		color: white;
+		text-decoration: underline;
+	}
+	
+	.showcase-title {
+		padding-bottom: 1%;
+		padding-top: 20%;
+	}
+	
+	.showcase-desc {
+		text-decoration: italic;
+		padding-bottom: 2%;
+		margin: 0;
+	}
+	
+	
+	.main-info-line {
+		/*border-bottom: 2px solid white;*/
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	
+	/* Teams Section */
+	.teams-container {
+		background-image: url("/media/third.jpg");
+		background-color: #0098E7;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	
+	/* Third Click */
+	.team-main-info, .game-main-info, .news-main-info {
+		background-color: #236699;
+		color: white;
+	}
+	
+	.about-img {
+		margin: 5% 0% 5% 5%;
+	}
+	
+	.meet-the-team, .gallery {
+		background-color: #0098E7;
+		color: white;
+	}
+	
+	.meet {
+		background-color: #239091;
+		border: 3px solid #00E4E7;
+		border-radius: 35px;
+		box-shadow: 10px -10px 2px 2px rgba(0, 0, 0, 0.5);
+	}
+	
+	.inline {
+		display: inline;
+	}
+	
+	.projects, .games, .team {
+		background-color: #0A4444;
+		color: white;
+	}
+	
+	hr {
+		border-width: 5px;
+		border-color: white;
+	}
+	
+	.team-p, .game-p, .news-p {
+		font-size: 30px;
+	}
+	.m-e {
+	    float: right;
+	}
+	.right-side {
+		float: left;
+	}
+	
+	.clearfix {
+	    overflow: auto;
+	    background-color: #ddd;
+	    border: 3px solid #00e4e7;
+	    border-radius: 20px;
+	    box-shadow: 10px -10px 2px 2px rgba(0, 0, 0, 0.5);
+	}
+	
+	.horizontal-card {
+		float: left;
+		display: inline-block;
+		padding-right: 2%;
+		width: 30%;
+		height: 200px;
+	}
+	
+	.team-card-title {
+		padding-top: 2%;
+		color: #000;
+	}
+	
+	.team-card-desc {
+		color: #555;
+		width: 98%;
+	}
+	
+	.team-card-link {
+		color: #00e4e7;
+		text-decoration: underline;
+	}
+	
+	.none:hover {
+		text-decoration: underline !important;
+		color: #000;
+	}
+	
+	.gallery-table {
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+	
+	.gallery-img-row {
+		background-color: #000;
+		width: 400px;
+		height: 250px;
+		border: 3px solid #00e4e7;
+	    border-radius: 20px;
+	    box-shadow: 10px -10px 2px 2px rgba(0, 0, 0, 0.5);
+	}
+
+	/* Contact Section */
+	.contact-container {
+		background-color: rgb(0,152,231,0.8);
+		padding-bottom: 5%;
+	}
+
+		/* Search Nav Bar */
+	input[type=search] {
+		width: 200px;
+		box-sizing: border-box;
+		border: 2px solid #00e4e7;
+		border-radius: 4px;
+		font-size: 16px;
+		background-image: url('/media/searchicon.png');
+		background-color: #eee;
+		background-position: 10px 10px; 
+		background-repeat: no-repeat;
+		padding: 12px 20px 12px 40px;
+		-webkit-transition: width 0.4s ease-in-out;
+		transition: width 0.4s ease-in-out;
+	}
+
+	input[type=search]:focus {
+		width: 30%;
+	}
+	
+	/* ===CONTACT SECTION=== */
+	  .contact-form {
+	  	background-color: #0098E7;
+	  	color: white;
+	  	margin: 5% 5% 0% 5%;
+	  	border-radius: 50px;
+	  }
+	  
+	  .small {
+	  	width: 10%;
+	  }
+	  
+	  .medium {
+	  	width: 30%;
+	  }
+	  
+	  .large {
+	  	width: 50%;
+	  }
+	  
+	  .small, .medium, .large {
+	  	border-radius: 10px;
+	  	border: none;
+	  	padding: 12px 20px;
+	  	margin-bottom: 10px;
+	  }
+	  
+	  /* Submit Button */
+	  .submit-button {
+	  	float: right;
+	  	margin-top: 1%;
+	  }
+	  
+	  .view-more-button {
+	  	text-align: center;
+	  }
+	  
+	  .gradient-button {
+	  	/* Gradient Coloruing */
+	    background-color: #236699; /* For browsers that do not support gradients */
+	    background-image: linear-gradient(to bottom right, #00e4e7, #0098E7, #001BE7); /* Standard syntax (must be last) */
+	    border: none;
+	    border-radius: 50px;
+	    color: white;
+	    padding: 15px 32px;
+	    text-align: center;
+	    text-decoration: underline;
+	    display: inline-block;
+	    font-size: 16px;
+	    margin: 4px 2px;
+	    cursor: pointer;
+	    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	  }
+	  
+	  .gradient-button-dark {
+	  	/* Gradient Coloruing */
+	    background-color: #555555; /* For browsers that do not support gradients */
+	    background-image: linear-gradient(to bottom right, #999999, #555555, #222222); /* Standard syntax (must be last) */
+	    border: none;
+	    border-radius: 50px;
+	    color: white;
+	    padding: 15px 32px;
+	    text-align: center;
+	    text-decoration: underline;
+	    display: inline-block;
+	    font-size: 16px;
+	    margin: 4px 2px;
+	    cursor: pointer;
+	    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	  }
+	  
+	  .gradient-button:hover {
+	  	opacity: 50;
+	  }
+	  
+	  /* ===FOOTER=== */
+	  footer {
+	  	background-color: #000;
+	  	text-decoration: underline;
+	  	width: 100%;
+	  	bottom: 0;
+	  	text-align: center;
+	  	padding: 3%;
+	  	/* Footer Does not sit at bottom of sitemap page. Position fixed makes it follow the screen and sticks to bottom of all screen pages */
+	  	position: relative;
+	  	clear: both;
+	  }
+	  
+	  footer a {
+	  	color: white !important;
+	  }
+	  
+	  footer a:hover {
+	  	color: #00E4E7 !important;
+	  }
+	  
+	  
+	  
+	  /*trying to make mobile and tablet friendly below*/
+	 
+	  
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+	h1 {
+		font-size: 32px;
+		margin: 0;
+		padding: 0;
+	}
+	
+	h2 {
+		margin: 0 !important;
+	}
+
+ /* Main Nav Styling */
+
+
+	li a:hover {
+		color: white;
+		background-color: #111;
+	}
+	
+	.nav-border {
+		opacity: 0.5;
+	}
+
+
+
+	/* Carousel Styling */
+	.showcase-img {
+		width: 1200px;
+		height: 700px;
+		opacity: 0.5;
+	}
+	
+	.carousel-inner {
+		background-color: #000;
+	}
+	
+	/* Centers the card carousel */
+	.container-fluid {
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 15%;
+		padding-bottom: 15%;
+		
+	}
+
+	/* Games and Teams Title */
+	.landing-title-gradient {
+		text-align: center;
+		color: white;
+		text-decoration: underline;
+		padding: 3%;
+		width: 100%;
+		overflow: hidden;
+		/* Gradient Coloruing */
+	    background-color: #236699; /* For browsers that do not support gradients */
+	    background-image: linear-gradient(to bottom right, #00e4e7, #0098E7, #001BE7); /* Standard syntax (must be last) */
+	}
+	
+	/* News and Contact Title */
+	.dark-landing-title-gradient {
+		text-align: center;
+		color: white;
+		text-decoration: underline;
+		padding: 3%;
+		width: 100%;
+		overflow: hidden;
+		/* Gradient Coloruing */
+	    background-color: #555555; /* For browsers that do not support gradients */
+	    background-image: linear-gradient(to bottom right, #999999, #555555, #222222); /* Standard syntax (must be last) */
+	}
+	
+	/* News Section */
+	.news-container {
+		background-image: url("/media/pentagram/House-bedroom.png");
+		background-color: #333;
+		min-height: 100%;
+		background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	
+	.card {
+		background-color: #eee;
+		border: 3px solid #00e4e7;
+		box-shadow: 10px -10px 2px 2px rgba(0, 0, 0, 0.5);
+	}
+	
+	.card-img-caption, .card-img-caption img {
+	  /*border-top-left-radius: calc(.25rem - 1px);
+	  border-top-right-radius: calc(.25rem - 1px);*/
+	  
+	  background-color: #000;
+	  width: 244px;
+	  height: 220px;
+	}
+	  
+	.card-img-caption .card-img-top {
+	  z-index: 0;
+	}
+	
+	.card-img-top {
+		background-color: #777;
+	}
+	    
+	.card-img-caption .card-text-header {
+	  width: 100%;
+	  margin: 33% 0;
+	  position: absolute;
+	  z-index: 1;
+	}
+	
+	.img-card-dark {
+		opacity: 0.4;
+	}
+	
+	.news-title-text {
+		color: #00E4E7;
+		text-decoration: underline;
+		font-family: 'Hind', sans-serif;
+		font-size: 1.3em;
+	}
+	
+	.news-card-desc {
+		text-decoration: underline;
+		
+	}
+	
+	/* Games Section */
+	.games-container {
+		background-image: url("/media/mediaevil/Plight_Title.png");
+		background-color: #333;
+		min-height: 100%;
+		background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	
+	/* Teams Section */
+	.teams-container {
+		background-image: url("/media/mediaevil/MediaEvil_Logo-Gradient.png");
+		background-color: #333;
+		min-height: 100%;
+		background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+	
+	/* Contact Section */
+	.contact-container {
+		background-color: rgba(0,152,231,0.8);
+		padding-bottom: 5%;
+	}
+	
+	.container-fluid-contact {
+		padding: 5%;
+	}
+	
+	.sm-form {
+		width: 30%;
+	}
+	
+	.md-form {
+		width: 60%;
+	}
+	
+	.lg-form {
+		width: 100%;
+	}
+	
+	.contact-highlight {
+	    -webkit-transition: all 0.30s ease-in-out;
+	  	-moz-transition: all 0.30s ease-in-out;
+	  	-ms-transition: all 0.30s ease-in-out;
+	  	-o-transition: all 0.30s ease-in-out;
+	  	outline: none;
+	}
+	
+	.contact-highlight:focus {
+		box-shadow: 0 0 10px rgba(0, 228, 231, 1);
+		border: 3px solid rgba(0, 228, 231, 1);
+	}
+	
+	/* Contact Success */
+	.contact-success {
+		width: 100%;
+		text-align: center;
+		margin-top: 5%;
+	}
+	
+	.contact-success-text {
+		text-align: center;
+		display: inline-block;
+		color: white;
+		font-size: 24px;
+		padding: 3% 2% 3% 2%;
+		width: 50%;
+		border-top: 3px solid white;
+		border-bottom: 3px solid white;
+	}
+
+	/* Card Styling */
+	.card {
+		border-radius: 35px;
+	}
+	
+	.card img, .card-img-caption {
+		border-top-left-radius: 35px;
+		border-top-right-radius: 35px;
+	}
+	
+	.card-games img {
+		border-radius: 35px;
+		overflow: hidden;
+	}
+
+	/* Card Centering Position */
+	.card-margin {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+
+	.card-title-light {
+		color: #00e4e7;
+		text-decoration: underline;
+		/* Centering title text over image */
+		/*position: absolute;
+		top: 25%;
+		left: 50%;
+		transform: translate(-50%, -50%);*/
+	}
+	
+	/* Sitemap Styling */
+	.sitemap-container {
+		background-color: #0098E7;
+		overflow: hidden;
+	}
+	
+	.sitemap-section {
+		padding: 10% 5% 10% 5%;
+		background-color: #0098E7;
+	}
+	
+	.sitemap-content {
+		padding: 2%;
+		background-color: #236699;
+		border-radius: 50px;
+	}
+	
+	.sitemap-header {
+		border-bottom: 2px solid white;
+		margin-bottom: 2%;
+		color: white;
+	}
+	
+	.sitemap-table {
+		color: white;
+		width: 100%;
+	}
+	
+	.main-link {
+		font-weight: normal;
+	}
+	
+	.sitemap-link, .sitemap-link-sm {
+		color: white !important;
+		text-decoration: underline;
+	}
+	
+	.sitemap-link:hover, .sitemap-link-sm:hover {
+		color: #00E4E7 !important;
+		text-decoration: underline;
+	}
+	
+	.sitemap-link {
+		width: 100%;
+		font-size: 24px;
+	}
+	
+	.sitemap-link-sm {
+		font-size: 18px;
+	}
+	
+	
+	/* Gallery */
+	
+	.btn:focus, .btn:active, button:focus, button:active {
+	  outline: none !important;
+	  box-shadow: none !important;
+	}
+	
+	#image-gallery .modal-footer{
+	  display: block;
+	}
+	
+	.thumb{
+	  margin-top: 15px;
+	  margin-bottom: 15px;
+	}
+	
+	.img-thumbnail {
+		width: 400px;
+		height: 250px;
+		background-color: #333;
+		border: 5px solid #00E4E7;
+		padding: 0;
+	}
+	
+	.mtop-nav {
+		margin-top: 76px;
+	}
+}
